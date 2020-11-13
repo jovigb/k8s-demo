@@ -139,4 +139,13 @@ Forwarding from [::1]:80 -> 80
 kubectl delete deployment nginx  
 kubectl delete service nginx  
 
-minikube stop  
+minikube stop 
+
+ ## reference
+https://juejin.im/post/6844903943051411469  
+https://juejin.im/post/6844903984554049544  
+https://blog.csdn.net/qq_28038487/article/details/103947574  
+https://juejin.im/post/6844903984554049544  
+https://www.qikqiak.com/post/gitlab-ci-k8s-cluster-feature/  
+https://github.com/johnhuang-cn  
+https://devopsheaven.com/kubernetes/k8s/minikube/devops/deploy/nginx/2017/09/16/install-kubernetes-locally-minikube.html
