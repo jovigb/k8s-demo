@@ -104,6 +104,10 @@ docker:18.09.9
     shm_size = 0  
 - restart gitlab-runner    
 docker restart gitlab-runner
+- deploy gitlab group variable  
+create group k8s-demo  
+go to http://k8s-master/groups/k8s-demo/-/settings/ci_cd  
+setting >> CI/CD >> DOCKER_HUB_REPO => k8s-master:5000/k8s-ci
 
 ## build local docker image
 - k8s-master:5000/mvn3-jdk8-docker18  
