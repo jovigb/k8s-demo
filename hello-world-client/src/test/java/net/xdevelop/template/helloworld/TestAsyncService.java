@@ -21,8 +21,7 @@ public class TestAsyncService {
                 + Thread.currentThread().getName());
         try {
             Thread.sleep(5000);
-            return null;
-//            return new AsyncResult<String>("hello world !!!!");
+            return new AsyncResult<String>("hello world !!!!");
         } catch (InterruptedException e) {
             //
         }

@@ -4,7 +4,7 @@ variables:
   MAVEN_OPTS: "-Dmaven.repo.local=/root/.m2/repository"
   DOCKER_DRIVER: overlay2
   PROJECT_NAME: $CI_PROJECT_NAME
-  PROJECT_VERSION: "0.0.2"
+  PROJECT_VERSION: "0.0.3"
 
 stages:
   - build
