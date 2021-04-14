@@ -38,7 +38,7 @@ sudo docker run -d \
 - download & setup minikube  
 curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v1.2.0/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 - launch minikube  
-minikube start --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers  --registry-mirror=https://registry.docker-cn.com --driver=none
+minikube start --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers  --registry-mirror=https://registry.docker-cn.com --vm-driver=none
 - start dashboard  
 minikube dashboard 
 - setup dashboard proxy  
