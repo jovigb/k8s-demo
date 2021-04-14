@@ -1,0 +1,32 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Deploy to Registry" type="DEPLOY_ACS_RUN_CONFIGURATION" factoryName="Deploy to ACR">
+    <option name="acrRegistryAddress" value="registry.cn-hangzhou.aliyuncs.com" />
+    <option name="alreadyReset" value="true" />
+    <option name="autoVersion" value="false" />
+    <option name="clusterType" value="ALI" />
+    <option name="configFilePath" />
+    <option name="contextDirectory" value="D:\myworks\java\k8s-demo\docker-images\java8-alpine" />
+    <option name="controllerType" />
+    <option name="customRegistryId" value="0" />
+    <option name="customRepository" value="false" />
+    <option name="dockerfile" value="D:\myworks\java\k8s-demo\docker-images\java8-alpine\Dockerfile" />
+    <option name="imageRepoName" value="java8-alpine" />
+    <option name="imageRepoNamespace" value="bmwuni" />
+    <option name="imageRepoRegionId" value="cn-hangzhou" />
+    <option name="imageRepoStatus" />
+    <option name="imageRepoTagName" value="latest" />
+    <option name="imageRepoType" />
+    <option name="k8sClusterId" />
+    <option name="k8sClusterName" />
+    <option name="k8sContainerNames" />
+    <option name="k8sControllerName" />
+    <option name="k8sControllerQuery" />
+    <option name="k8sNamespace" />
+    <option name="onlyDeployImage" value="true" />
+    <option name="regionId" />
+    <option name="registoryType" value="REGISTRY" />
+    <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../k8s-demo\pom.xml" goal="clean install" />
+    </method>
+  </configuration>
+</component>

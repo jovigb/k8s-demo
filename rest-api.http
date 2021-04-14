@@ -1,0 +1,15 @@
+###
+GET http://localhost:10001/hello?name=123
+Content-Type: application/json; charset=utf-8
+
+###
+GET http://localhost:10001/addSpikeToken?seckillId=100001&tokenQuantity=100
+Content-Type: application/json; charset=utf-8
+
+###
+GET http://localhost:10001/spike?phone=13817006428&seckillId=100001
+Content-Type: application/json; charset=utf-8
+
+###
+GET http://localhost:10001/order?phone=13817006428&seckillId=100001
+Content-Type: application/json; charset=utf-8
